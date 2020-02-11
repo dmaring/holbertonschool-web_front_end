@@ -6,7 +6,7 @@ body {
     color: #161616;
 }
 
-a:link {
+a {
     color: #161616
 }
 
@@ -21,3 +21,4 @@ a:link {
 .section-tagline {
     color: #D73953
 }
+
