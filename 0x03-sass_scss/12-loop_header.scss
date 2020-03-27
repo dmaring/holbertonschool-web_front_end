@@ -1,7 +1,7 @@
 /* SCSS using @for */
 
 @for $i from 1 through 4 {
-    .h#{$i} {
+    h#{$i} {
         font-size: #{$i}px;
     }
 }
