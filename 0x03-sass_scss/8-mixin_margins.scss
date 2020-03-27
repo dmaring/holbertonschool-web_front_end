@@ -1,0 +1,8 @@
+/* SCSS file with nested tags */
+@mixin margins($property) {
+  margin-left: $property;
+  margin-right: $property;
+}
+
+body { @include margins(10px) }
+div { @include margins(15px) }
