@@ -1,0 +1,9 @@
+/* Media queries with sass */
+$break-small: 320px;
+
+h1 {
+  font-size: 20px;
+  @media screen and (max-width: $break-small) {
+    font-size: 14px;
+  }
+}
